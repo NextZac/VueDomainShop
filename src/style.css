@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+  background: #FFDCDC;
+  font-family: Inter, sans-serif;
+}
+
+.header .icon {
+  width: 4%;
+  height: 4%;
+  padding: 6px 6px 6px 6px;
+}
+
+.header {
+  background: linear-gradient(180deg, #C60606 0%, #C60606 16.15%, #FFDCDC 100%);
+  width: 100%;
+}
