@@ -43,6 +43,10 @@ defineProps<{
   </template>
 
 <style scoped>
+
+.activeBox {
+  background-color: #f90000;
+}
 .box {
   display: flex;
   flex-direction: column;
@@ -52,7 +56,7 @@ defineProps<{
 .box .group {
   height: 38px;
   left: 0;
-  top: 0;
+  top: 100px;
   width: 353px;
 }
 

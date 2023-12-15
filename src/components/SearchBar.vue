@@ -1,10 +1,10 @@
 <script setup>
-import { SearchButton } from "./SearchButton.vue";
+import SearchButton from "../components/SearchButton.vue";
 </script>
 
 <template>
     <div class="box">
-      <div class="group">
+      <div class="group mx-auto w-1/2 text-center p-4">
         <div class="overlap-group">
           <div class="rectangle"></div>
           <div class="div"></div>
@@ -12,30 +12,24 @@ import { SearchButton } from "./SearchButton.vue";
           <div class="text-wrapper">.ee</div>
           <div class="text-wrapper-2">https://</div>
           <img class="icon-caret-down" alt="Icon caret down" src="../assets/caretdown.png" />
-          <SearchButton></SearchButton>
+          <SearchButton class="searchbutton"></SearchButton>
         </div>
       </div>
     </div>
   </template>
   
   
-  <style>
-  .box {
-    height: 32px;
-    width: 653px;
-  }
+  <style scoped>
   
   .box .group {
     height: 32px;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 657px;
+    left: 4.75%;
+    top: 32.5%;
+    width: 100%;
   }
   
   .box .overlap-group {
     height: 32px;
-    position: relative;
     width: 653px;
   }
   
@@ -110,7 +104,7 @@ import { SearchButton } from "./SearchButton.vue";
     width: 14px;
   }
   
-  .box .group-19 {
+  .SearchButton {
     height: 32px !important;
     left: 605px !important;
     position: absolute !important;

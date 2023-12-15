@@ -8,44 +8,39 @@
         <div class="property-default">
             <div class="overlap-group">
             <div class="rectangle"></div>
-            <img class="img" alt="Icon search" src="icon-search.png" />
+            <img class="img" alt="Icon search" src="../assets/icon-search.png"/>
             </div>
         </div>
         </div>
     </div>
 </template>
   
-  <style>
+  <style scoped>
   .box {
-    height: 166px;
+    height: 32px;
     position: relative;
-    width: 88px;
+    width: 48px;
   }
   
   .box .div {
-    border: 1px dashed;
-    border-color: #9747ff;
     border-radius: 5px;
-    height: 166px;
+    height: 32px;
     left: 0;
     overflow: hidden;
-    position: fixed;
     top: 0;
-    width: 88px;
+    width: 48px;
   }
   
   .box .property-default {
     height: 32px;
     left: 20px;
-    position: absolute;
     top: 20px;
     width: 48px;
   }
   
   .box .overlap-group {
-    border-radius: 0px 15px 15px 0px;
+    border-radius: 15px 0px 0px 15px;
     height: 32px;
-    position: relative;
   }
   
   .box .rectangle {

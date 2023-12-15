@@ -27,7 +27,7 @@
         </div>
     </nav>
     </div>
-    <div class="main h-screen flex items-center justify-center">
+    <div class="main">
         <slot></slot>
     </div>
 </template>
