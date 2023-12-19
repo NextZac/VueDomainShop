@@ -10,8 +10,8 @@ var notificationEnabled = false;
 <template>
   <Base>
         <OrderStatus></OrderStatus>
-        <!-- <SearchBar></SearchBar>-->
+        <!--<SearchBar></SearchBar>-->
         <CheckoutForm></CheckoutForm>
-        <Notification v-show="notificationEnabled"></Notification>
+        <!--<Notification ></Notification>-->
   </Base>
 </template>
