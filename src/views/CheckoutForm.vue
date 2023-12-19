@@ -10,8 +10,7 @@ var notificationEnabled = ref(false);
 
 <template>
 <Base>
-        <OrderStatus></OrderStatus>
-        <SearchBar @searchPressed="notificationEnabled = !notificationEnabled"></SearchBar>
-        <Notification v-show="notificationEnabled" :success="true"></Notification>
+        <OrderStatus :currentState="1"></OrderStatus>
+        <CheckoutForm></CheckoutForm>
   </Base>
 </template>

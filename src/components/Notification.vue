@@ -18,7 +18,7 @@ defineProps<{
 
         </div>
         <div :class="success ? '' : 'hidden'">
-            <button style="background-color: rgba(255, 220, 220, 1);" class=" text-white rounded-[15px] w-[100px] h-[40px] whitespace-nowrap"><div class="flex items-center justify-center	">Osta<img style="margin-left: 15%;" src="../assets/icon_basket.png" alt=""></div></button>
+            <a href="#/checkoutForm"><button style="background-color: rgba(255, 220, 220, 1);" class=" text-white rounded-[15px] w-[100px] h-[40px] whitespace-nowrap"><div class="flex items-center justify-center	">Osta<img style="margin-left: 15%;" src="../assets/icon_basket.png" alt=""></div></button></a>
         </div>
       </div>
     </div>

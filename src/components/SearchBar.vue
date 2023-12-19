@@ -14,7 +14,7 @@
           </div>
         </div>
         <div class="text-center flex items-center justify-center" style="background-color: #D85555;border: 1px solid #000;border-radius: 0px 15px 15px 0px;width: 100%;">
-          <img src="../assets/icon_search.png">
+          <button @click="$emit('searchPressed')"><img src="../assets/icon_search.png"></button>
         </div>
       </div>
     </div>
